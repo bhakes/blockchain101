@@ -1,0 +1,40 @@
+## Blockchains 101
+## A tweet storm by Ben Busse on 22 June 2017
+
+0/ Blockchains, Bitcoin, and Ethereum in a nutshell....
+1/ Blockchains enable two untrusting parties to maintain consensus about facts without the need for a third party.
+2/ A blockchain is a distributed ledger that consists of a list of transactions.
+3/ The ledger adds new rows and ensures that each new row adheres to pre-agreed technical rules.
+4/ The ledger is replicated across many computers, rather than stored on a single computer.
+5/ The ledger listens and broadcasts new rows to its peers and guarantees that all peers have the same data.
+6/ The blockchain data structure is a set of blocks in a chain. Each block contains data and metadata.
+7/ For example, a bitcoin block consists of bitcoin transactions, a unique hash of the block’s data, and a reference to the previous block.
+8/ The chain is an ordered sequence of blocks, from the first ever (genesis) block to the latest block.
+9/ Each block in the chain references the previous block by the previous block's data fingerprint, called a hash.
+10/ Many blockchains, including bitcoin, are immutable.
+11/ Blockchains are verifiable. A given block's content and hash and the chain of hashes must be consistent.
+12/ Tampering with block content and reverse engineering the hash chain is computationally overwhelming as of 2017 at least.
+13/ Some notes on the bitcoin blockchain versus the ethereum blockchain….
+14/ Bitcoin is an electronic asset. Bitcoin transactions occur on the public bitcoin blockchain.
+15/ A peer-to-peer network of computers validates and cumulatively stores bitcoin transactions in blocks.
+16/ An important bitcoin concept is an address. You need a bitcoin address to send and receive bitcoin.
+17/ To receive bitcoin, you simply provide your bitcoin address to the person sending you bitcoin.
+18/ To send bitcoin, you need to know the recipient's bitcoin address.
+19/ Each bitcoin address has its own private key, which is necessary to send payments from that address.
+20/ Think of the key as a digital signature that verifies your ownership of that particular bitcoin address.
+21/ When you send a payment from your bitcoin address to another bitcoin address….
+22/ You're instructing the bitcoin network to move bitcoin from your bitcoin address to the recipient's bitcoin address.
+23/ Your payment instruction contains 1/ your bitcoin address, 2/ the recipient's bitcoin address, 3/ amount of bitcoin.
+24/ You must digitally sign the payment instruction with the private key of your bitcoin address.
+25/ This proves that the key belongs to that particular bitcoin address.
+26/ The bitcoin network then validates the payment and soon after adds the transaction to the bitcoin blockchain.
+27/ A bitcoin wallet is a software application that generates bitcoin addresses and private keys for you.
+28/ You can have many bitcoin addresses. Each address has its own private key that is specific to that address.
+29/ Your wallet displays all of your bitcoin addresses and balances and makes it easy to send and receive bitcoin payments.
+30/ Ethereum is a public blockchain that processes and replicates small programs called "smart contracts", without a centralized actor.
+31/ To run ethereum, you download an ethereum client. Your computer becomes a network node, running the ethereum virtual machine.
+32/ An ethereum client allows you to connect to the ethereum network, read and write smart contracts, and mine new blocks.
+33/ The ethereum virtual machine is "Turing complete", meaning it can perform any computation, including smart contracts.
+34/ Ethereum makes it easy to codify the terms of a contract as a computer program.
+35/ You run the contract on the ethereum blockchain by paying some "ether", ethereum's digital asset for value exchange.
+36/ Blockchains, including bitcoin and ethereum, scale human trust without a middleman. That’s a big deal.
